@@ -530,7 +530,7 @@ else()
       set(MACOSX_BUNDLE "MACOSX_BUNDLE")
     endif()
   endif()
-  add_executable(${QGIS_APP_NAME} ${MACOSX_BUNDLE} WIN32 ${QGIS_APPMAIN_SRCS})
+  add_executable(${QGIS_APP_NAME} ${MACOSX_BUNDLE} ${QGIS_APPMAIN_SRCS})
 
   if(WIN32 AND BUILD_WITH_QT6)
     qt_disable_unicode_defines(${QGIS_APP_NAME})
