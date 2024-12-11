@@ -64,7 +64,8 @@ QString QgsCoverageUnionAlgorithm::shortHelpString() const
   return QObject::tr( "This algorithm operates on a coverage (represented as a set of polygon features "
                       "with exactly matching edge geometry) to dissolve (union) the geometries.\n\n"
                       "It provides a heavily optimized approach for unioning these features compared with "
-                      "the standard Dissolve tools." );
+                      "the standard Dissolve tools."
+                      "Yes !!!" );
 }
 
 QgsCoverageUnionAlgorithm *QgsCoverageUnionAlgorithm::createInstance() const
